@@ -34,5 +34,4 @@ public class MySQLConfig {
             
             return sessionFactory.getObject();
     }
-
 }
