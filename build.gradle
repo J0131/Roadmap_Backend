@@ -16,7 +16,13 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.projectlombok:lombok:1.18.22'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.32'
+	implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.3.0'
+	testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.0.3.RELEASE'
+	testImplementation 'junit:junit:4.13.1'
+
 }
 
 tasks.named('test') {
